@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.Scanner;
 
 public class start {
@@ -5,7 +6,7 @@ public class start {
 	private final static String SPRING_URL = "http://info.sjsu.edu/web-dbgen/soc-spring-courses/all-departments.html";
 	
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		boolean loopFlag = true;
 		while(loopFlag){
